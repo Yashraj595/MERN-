@@ -1,0 +1,54 @@
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+
+#discount{
+  width: 100vw;
+  /* width: auto; */
+  height: 150px;
+  background: transparent;
+  display: flex;
+    justify-content: center;
+    align-items: center;
+  font-size: x-large;
+  align-items: center;
+  animation-name: move;
+  animation-duration: 4s;
+  animation-timing-function: linear;
+  /* animation-delay: 1s; */
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+}
+
+/* @keyframes move {
+  from {
+    transform: translateX(15vw);
+  }
+
+  to {
+    transform: translateX(35vw);
+  }
+} */
+
+@media( max-width:630px){
+  #discount{
+    width: 100vw;
+    font-size: 15px;
+  }
+
+    @keyframes move {
+      from {
+        transform: translateX(0vw);
+      }
+  
+      to {
+        transform: translateX(0vw);
+      }
+    }
+
+}

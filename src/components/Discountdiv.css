@@ -11,7 +11,7 @@
   width: 100vw;
   /* width: auto; */
   height: 150px;
-  background: transparent;
+  background: #dadada;
   display: flex;
     justify-content: center;
     align-items: center;

@@ -70,6 +70,7 @@
 // };
 
 // export default Navigation;
+import { Link } from 'react-router-dom';
 
 import { useState } from 'react';
 // import Data from './Data';
@@ -115,18 +116,22 @@ const Navigation = () => {
         </div>
 
         <div id="uppernav">
-          <a href="#">Home</a>
+          {/* <a href="#">Home</a>
           <a href="#">Shop</a>
-          <a href="#">About</a>
+          <a href="UI\src\components\Contact.jsx">About</a>
           <a id="four" href="#">
-            Contact
-          </a>
+            Contact</a> */}
+
+          <Link to="/">Home</Link>
+          {/* <Link to="/shop">Shop</Link> */}
+          <Link to="/about">About</Link>
+          <Link to="/contact" id="four">Contact </Link>
         </div>
       </div>
 
       <div className="search-results">
         {filterOut.map((curValue, index) => (
-          <div className='search-container'>
+          <div className="search-container">
             <div className="search-card" key={index}>
               <img
                 className="search-img"

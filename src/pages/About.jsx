@@ -9,7 +9,7 @@ const About = () => {
 
       <div className="aboutouterdiv">
         <div className="aboutinnerdiv">
-          <h3 className='text-white font-bold '>About us </h3>
+          <h3 className='text-back font-bold '>About us </h3>
           <p className='abouttext'>
             Welcome to our website. This platform has been created with
             the purpose of learning, building, and sharing knowledge related to

@@ -125,8 +125,11 @@ const Navigation = () => {
           <Link to="/">Home</Link>
           {/* <Link to="/shop">Shop</Link> */}
           <Link to="/about">About</Link>
-          <Link to="/contact" id="four">Contact </Link>
+          <Link to="/contact" id="four">
+            Contact{' '}
+          </Link>
         </div>
+        <button id="threedot">≡</button>
       </div>
 
       <div className="search-results">

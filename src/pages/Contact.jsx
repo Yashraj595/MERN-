@@ -3,12 +3,17 @@ import Footer from '../components/Footer';
 import './Contact.css'
 
 const Contact = () => {
+   
+  function submit(){
+    alert(' Form is Successfully Saved ! ');
+  }
+
   return (
     <>
       <Navigation />
       
       <div id="contactouter">
-        <h2>Contact Form</h2>
+        <h2 className='font-bold'>Contact Form</h2>
         <div id="contatinner">
           <form>
             <input
@@ -36,7 +41,7 @@ const Contact = () => {
               placeholder="Write your message"
             ></textarea>
 
-            <button id='submitbutton' type="submit">Submit</button>
+            <button id='submitbutton' type="submit" onClick={submit}>Submit</button>
           </form>
         </div>
       </div>

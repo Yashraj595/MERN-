@@ -8,7 +8,7 @@ const Contact = () => {
       <Navigation />
       
       <div id="contactouter">
-        <h2>Connection Form</h2>
+        <h2>Contact Form</h2>
         <div id="contatinner">
           <form>
             <input

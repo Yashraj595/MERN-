@@ -8,14 +8,14 @@
   min-height: 100vh;
   display: flex;
   justify-content: center;
-  background: #dadada;
+  background: white;
 }
  
 
 .grid {
   width: 90vw;
   min-height: 400px;
-  background-color:#dadada;
+  background-color:white;
 
   display: grid; 
 

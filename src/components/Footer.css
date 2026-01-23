@@ -30,25 +30,30 @@ footer{
   margin: 0 auto;
   text-align: center;
   background-color: rgb(7, 7, 38);
+  /* background-color: rebeccapurple; */
   display: flex;
   flex-direction: column;
   flex-wrap: wrap;
+  border: none;
 }
 
 .footer-text {
   margin: 6px 0;
   font-size: 18px;
   color: white;
+  border: none;
 }
 #followus{
   height: 100px;
   width: 40vw;
   text-align: center;
   background-color: rgb(7, 7, 38);
+  /* background-color: rebeccapurple; */
  display: flex;
  justify-content: center;
  justify-content: space-evenly;
  /* align-items: center; */
+ border: none;
 }
 
 
@@ -69,7 +74,7 @@ footer{
   color: rgb(205, 181, 181);
   font-size: 20px;
   
-  
+  border: none;
   
 }
 #center{
@@ -77,6 +82,7 @@ footer{
   background-color: rgb(7, 7, 38);
   display: flex;
   justify-content: center;
+  border: none;
 }
 
 
@@ -90,6 +96,7 @@ footer{
   color: white;
   text-align: center;
   height: 50px;
+  border: none;
 }
 
 
@@ -273,4 +280,5 @@ footer{
   height: 100px;
   width: 100vw;
   background-color: rgb(187, 39, 39);
+  border: none;
 }

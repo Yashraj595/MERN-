@@ -81,6 +81,10 @@ import searchImg from '../assets/WhatsApp Image 2026-01-03 at 11.34.23 AM.jpeg';
 
 const Navigation = () => {
   const [searchText, setSearchText] = useState('');
+const [menuOpen, setMenuOpen] = useState(false);
+function menu(){
+  setMenuOpen(!menuOpen);
+}
 
   const getData = (e) => {
     setSearchText(e.target.value);
@@ -123,15 +127,17 @@ const Navigation = () => {
             Contact</a> */}
 
           <Link to="/">Home</Link>
-          {/* <Link to="/shop">Shop</Link> */}
           <Link to="/about">About</Link>
           <Link to="/contact" id="four">
-            Contact{' '}
+            Contact
           </Link>
         </div>
-        <button id="threedot">≡</button>
+        <button id="threedot" onClick={menu}>
+          <span className='colorgreen'>-</span>
+          <span>-</span>
+          <span>-</span>
+        </button>
       </div>
-
       <div className="search-results">
         {filterOut.map((curValue, index) => (
           <div className="search-container">
@@ -148,6 +154,14 @@ const Navigation = () => {
           </div>
         ))}
       </div>
+      {menuOpen && (
+        <div id="homebargarkikahani">
+          <Link to="/">Home</Link>
+
+          <Link to="/about">About</Link>
+          <Link to="/contact">Contact</Link>
+        </div>
+      )}
     </>
   );
 };

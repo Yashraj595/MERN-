@@ -14,6 +14,21 @@ input[type="search"]::-webkit-search-results-decoration {
 } */
 
 
+#homebargarkikahani{
+  display: none;
+/* 
+  height: 80px;
+  width: 100px;
+ background-color: red;
+ display: flex;
+ justify-content: center;
+ flex-direction: column;
+ align-items: center;
+ font-size: 20px;
+  */
+}
+
+
 
 #cover{
   width: 30vw;
@@ -178,8 +193,6 @@ display: none;
 }
 
 
-
-
 @media (max-width:650px){
   #uppernav{
     width: 50%;
@@ -200,21 +213,104 @@ display: none;
 }
 @media(max-width:550px){
 
+
+#homebargarkikahani {
+  height: 80px;
+  width: 95%;
+  background-color:white;
+
+  display: flex;
+  flex-direction: column;
+
+  align-items: center;
+  
+  align-items: flex-end;
+
+  font-size: 25px;
+  margin-right: 20px;
+}
+#homebargarkikahani a {
+  color: black;
+  text-decoration: none;
+  font-size: 16px;
+  
+}
+
+
+
   
  #uppernav{
-/* font-size: 45px; */
-/* gap: 20px; */
+
 display: none;
  }
+/* 
  #threedot{
   display: block;
   background-color: rgb(0, 0, 0);
   color :  white;
-  font-size: 30px;
-  border: none;
-  width: 30px;
-  overflow: hidden;
+  
+ overflow: hidden;
+  height: 10px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
  }
+ #threedot span{
+  background-color: red;
+  width: 100%;
+  
+ }
+ 
+#threedot:hover {
+  
+  box-shadow: 5px 5px 15px rgb(236, 122, 30);
+
+  
+  box-shadow:
+    5px 5px 15px rgb(239, 123, 7),
+    -5px -5px 15px rgb(235, 223, 9);
+  top: 70px
+} */
+
+#threedot {
+  width: 40px;
+  height: 30px;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+
+  background-color:black;
+  border: none;
+  cursor: pointer;
+
+  padding: 5px;
+}
+
+/* 3 horizontal lines */
+#threedot span {
+  width: 100%;
+  height: 3px;
+  background-color: white;
+  border-radius: 2px;
+  overflow: hidden;
+}
+
+/* Hover effect */
+#threedot span:hover {
+  /* background-color: yellow; */
+  background-color: yellow;
+  box-shadow:
+    5px 5px 15px rgb(239, 123, 10),
+    -5px -5px 15px rgb(235, 223, 10);
+}
+.classgreen{
+
+}
+
+
+
 a{
   /* font-size: 55%; */
 }
@@ -276,3 +372,5 @@ width: 300px;
 object-fit: cover;
 
 }
+
+

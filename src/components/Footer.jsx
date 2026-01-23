@@ -16,20 +16,30 @@ const Footer = () => {
           </p>
         </div>
       </footer>
-  <div id='followheading' >Follow Us </div>
-  
-      <div id='center'>
+      <div id="followheading">Follow Us </div>
+
+      <div id="center">
         <div id="followus">
-          <a className="followus" href="">
-            LinkedIn                 
+          <a
+            className="followus"
+            href="www.linkedin.com/in/yashraj-singh-thakur-7b3b05331"
+            target="_blank"
+          >
+            LinkedIn
           </a>
-          
-          <a className="followus" href="">
-            Instagram 
-          </a>
-          
-          <a className="followus" href="">
-            Facebook 
+
+          <a
+            className="followus"
+            href="https://www.instagram.com/yashrajsinghthakur520?igsh=NDc4ZXcwdnZnd3ox"
+            target="_blank"
+          > Instagram   </a>
+
+          <a
+            className="followus"
+            href="https://www.facebook.com/share/1CHCtBAaeo/"
+            target="_blank"
+          >
+            Facebook
           </a>
         </div>
       </div>

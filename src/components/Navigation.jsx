@@ -128,15 +128,22 @@ function menu(){
 
           <Link to="/">Home</Link>
           <Link to="/about">About</Link>
-          <Link to="/contact" id="four">
-            Contact
-          </Link>
+          <Link to="/contact">Contact</Link>
         </div>
         <button id="threedot" onClick={menu}>
-          <span className='colorgreen'>-</span>
+          <span className="colorgreen">-</span>
           <span>-</span>
           <span>-</span>
         </button>
+
+        <nav id="loginid">
+          <Link id="form" to="/signin">
+            Sign In
+          </Link>
+          <Link id="form" to="/signup">
+            Sign Up
+          </Link>
+        </nav>
       </div>
       <div className="search-results">
         {filterOut.map((curValue, index) => (
@@ -157,9 +164,14 @@ function menu(){
       {menuOpen && (
         <div id="homebargarkikahani">
           <Link to="/">Home</Link>
-
           <Link to="/about">About</Link>
           <Link to="/contact">Contact</Link>
+          <Link  to="/signin">
+            Sign In
+          </Link>
+          <Link  to="/signup">
+            Sign Up
+          </Link>
         </div>
       )}
     </>

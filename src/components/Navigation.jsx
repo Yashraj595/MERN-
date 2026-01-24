@@ -167,8 +167,8 @@ function menu(){
           <Link to="/">Home</Link>
           <Link to="/about">About</Link>
           <Link to="/contact">Contact</Link>
-          <Link  to="/signin"> Sign In </Link>
-          <Link  to="/signup"> Sign Up</Link>
+          <Link  to="/signin">Login</Link>
+          <Link  to="/signup">SignUp</Link>
         </div>
       )}
     </>

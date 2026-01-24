@@ -138,10 +138,11 @@ function menu(){
 
         <nav id="loginid">
           <Link id="form" to="/signin">
-          Sign In
+          Login
           </Link>
+          <span>/</span>
           <Link id="form" to="/signup">
-           Up
+           Sign Up
           </Link>
         </nav>
       </div>

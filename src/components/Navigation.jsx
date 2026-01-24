@@ -142,7 +142,7 @@ function menu(){
           </Link>
           <span>/</span>
           <Link id="form" to="/signup">
-           Sign Up
+           SignUp
           </Link>
         </nav>
       </div>

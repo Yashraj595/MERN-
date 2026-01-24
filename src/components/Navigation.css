@@ -99,6 +99,10 @@ align-items: center;
 font-size: 55px;
 font-family: "Georgia", serif;
 }
+#uppernav a:hover{
+  text-decoration: underline;
+
+}
 
 #loginid{
  min-height: 50px;
@@ -126,6 +130,10 @@ font-family: "Georgia", serif;
   font-size: large;
   font-family: "Georgia", serif;
   
+}
+
+#form:hover{
+  text-decoration: underline;
 }
 @media (max-width:950px){
   #uppernav{

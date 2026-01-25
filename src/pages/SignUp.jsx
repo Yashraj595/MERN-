@@ -93,8 +93,10 @@ const SignUp = () => {
 
 
       //  for vercel live  post method ke liye
-   const res = await axios.post('https://your-backend.vercel.app/signup', formData);
-
+   const res = await axios.post(
+     'https://mern-backend-parth-iy3wrifn8-yashraj-singh-thakur.vercel.app/signup',
+     formData,
+   );
 
       alert('Successfully SignUp ✅');
 

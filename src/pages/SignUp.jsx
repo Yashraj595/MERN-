@@ -70,7 +70,7 @@ import Navigation from '../components/Navigation';
 const SignUp = () => {
   const [formData, setFormData] = useState({
     name: '',
-    userName: '',
+
     email: '',
     phone: '',
     password: '',
@@ -95,14 +95,11 @@ const SignUp = () => {
 
      setFormData({
        name: '',
-       userName: '',
+       
        email: '',
        phone: '',
        password: '',
      });
-
-
-
 
 
       console.log(res.data);
@@ -110,7 +107,7 @@ const SignUp = () => {
       alert(err.response?.data?.message || 'Signup failed ❌');
        setFormData({
          name: '',
-         userName: '',
+         
          email: '',
          phone: '',
          password: '',
@@ -136,15 +133,7 @@ const SignUp = () => {
               onChange={handleChange}
             />
 
-            <input
-              className="forminput"
-              type="text"
-              name="userName"
-              placeholder="Enter user name"
-              value={formData.userName}
-              onChange={handleChange}
-            />
-
+            
             <input
               className="forminput"
               type="email"

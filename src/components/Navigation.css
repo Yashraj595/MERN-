@@ -35,7 +35,7 @@
   background-color: #FFF2C6;
   align-items: center;
   
-  border-bottom:2px solid #dadada;
+  border-bottom:2px solid transparent;
   overflow: hidden;
 }
  input{

@@ -2,14 +2,14 @@
 *{
   padding: 0;
   margin: 0;
-  background-color: wheat;
+  /* background-color: wheat; */
 }
 .outer {
   width: 100vw;
   min-height: 100vh;
   display: flex;
   justify-content: center;
-  background: #FFF8DE;
+  background-color: white;
 }
  
 

@@ -20,6 +20,7 @@
       }
 
       #contactouter{
+        margin-top: 50px;
         height: 600px;
         width: 100vw;
         background-color: white;
@@ -34,7 +35,7 @@
 #contatinner{
   height: 500px;
 width: 350px;
-background-color: #dadada;
+background-color:rgba(255, 72, 0, 0.568);
 border-radius: 12px;
 display: flex;
 /* border: 2px solid black; */
@@ -64,6 +65,7 @@ form{
   justify-content: space-evenly;
   flex-wrap: wrap;
   width: 100%;
+  /* background-color: ; */
   
 }
 

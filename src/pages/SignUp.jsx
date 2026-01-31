@@ -61,7 +61,7 @@
 // };
 
 // export default SignUp;
-
+import Footer from '../components/Footer';
 import React, { useState } from 'react';
 import axios from 'axios';
 // require('dotenv').config(); 
@@ -72,7 +72,7 @@ const SignUp = () => {
   const [formData, setFormData] = useState({
     name: '',
     email: '',
-    phone: '',
+   
     password: '',
   });
 
@@ -87,16 +87,25 @@ const SignUp = () => {
   const submit = async (e) => {
   e.preventDefault(); // page reload stop
 
+ if (!formData.name || !formData.email || !formData.password) {
+   alert('All fields are required');
+   return;
+ }
+
+
+
+
     try {
       //   for local System 
-      // const res = await axios.post(`http://localhost:5000/signup`, formData);
+       const url = 'http://localhost:5000/api/auth/register';
+       const res = await axios.post(url, formData);
 
 
       //  for vercel live  post method ke liye
-   const res = await axios.post(
-     'https://mern-backend-parth-iy3wrifn8-yashraj-singh-thakur.vercel.app/signup',
-     formData,
-   );
+  //  const res = await axios.post(
+  //    `http://localhost:5000/api/auth/register`,
+  //    formData,
+  //  );
 
       alert('Successfully SignUp ✅');
 
@@ -104,7 +113,7 @@ const SignUp = () => {
      setFormData({
        name: '',
        email: '',
-       phone: '',
+      
        password: '',
      });
 
@@ -115,7 +124,7 @@ const SignUp = () => {
        setFormData({
          name: '',    
          email: '',
-         phone: '',
+        
          password: '',
        });
     }
@@ -139,22 +148,12 @@ const SignUp = () => {
               onChange={handleChange}
             />
 
-            
             <input
               className="forminput"
               type="email"
               name="email"
               placeholder="Enter your email"
               value={formData.email}
-              onChange={handleChange}
-            />
-
-            <input
-              className="forminput"
-              type="text"
-              name="phone"
-              placeholder="Enter your phone number"
-              value={formData.phone}
               onChange={handleChange}
             />
 
@@ -173,8 +172,9 @@ const SignUp = () => {
           </form>
         </div>
       </div>
+      <Footer />
     </>
-  )
+  );
 };
 
 export default SignUp;

@@ -75,18 +75,25 @@ import { Link } from 'react-router-dom';
 import { useState } from 'react';
 // import Data from './Data';
 import { products as Data } from './Data';
-
+import './search.css'
 import './Navigation.css';
 import searchImg from '../assets/WhatsApp Image 2026-01-03 at 11.34.23 AM.jpeg';
 
 const Navigation = () => {
+  const [searchOpen, setsearchOpen] = useState(false);
   const [searchText, setSearchText] = useState('');
 const [menuOpen, setMenuOpen] = useState(false);
+
 function menu(){
   setMenuOpen(!menuOpen);
 }
 
+  function searchOn(){
+    setsearchOpen(!searchOpen);
+  }
+
   const getData = (e) => {
+
     setSearchText(e.target.value);
   };
 
@@ -111,7 +118,9 @@ function menu(){
             type="text"
             placeholder="Search here"
             value={searchText}
-            onChange={getData}
+            onChange={ getData }
+           onFocus={searchOn}
+
           />
 
           <button id="buttonsearch">
@@ -127,7 +136,7 @@ function menu(){
             Contact</a> */}
 
           <Link to="/">Home</Link>
-          <Link to="/about">About</Link>
+          <Link to="/shop">Shop</Link>
           <Link to="/contact">Contact</Link>
         </div>
         <button id="threedot" onClick={menu}>
@@ -165,12 +174,26 @@ function menu(){
       {menuOpen && (
         <div id="homebargarkikahani">
           <Link to="/">Home</Link>
-          <Link to="/about">About</Link>
+          <Link to="/shop">Shop</Link>
           <Link to="/contact">Contact</Link>
           <Link  to="/signin">Login</Link>
           <Link  to="/signup">SignUp</Link>
         </div>
       )}
+
+
+
+      {
+        searchOpen  && (searchText !== '') &&  (
+        <div id='searchDesign'>  
+
+
+        </div>
+
+        )
+      }
+
+
     </>
   );
 };

@@ -1,0 +1,49 @@
+
+#searchDesign{
+  height: 100%;
+  width: 100vw;
+  background-color: white;
+  
+  position: fixed;
+
+  
+  
+}
+
+#searchimg{
+width: 100%;
+  height: 100%;
+  object-fit: cover;
+
+}
+
+
+.search-container{
+  width: 100vw;
+  height: 100vh;
+  
+  display: flex;
+  justify-content: center;
+  background-color: red;
+  position: fixed;
+}
+
+.search-card {
+
+height:380px;
+width:  250px;
+overflow: hidden;
+border-radius: 12px;
+background-color: #dadada;
+margin-top: 50px;
+
+
+}
+
+.search-img{
+height: 280px;
+width: 300px;
+
+object-fit: cover;
+
+}

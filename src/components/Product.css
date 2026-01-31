@@ -11,7 +11,9 @@ margin: 0;
 #card{
   height: 380px;
   width: 250px;
-  background-color: #dadada;
+
+  background-color: #FFF2C6;
+    
   border-radius: 12px;
 }
 
@@ -21,8 +23,8 @@ margin: 0;
   object-fit: cover;
   border: none;
   border-radius: 12px;
-
 }
+
 #carddetail{
   /* line-height: 15px; */
   height: 20%;
@@ -30,6 +32,8 @@ margin: 0;
   margin-top: 8px;
   margin-left: 12px;
   background-color: #dadada;
+  background-color: #ff9603dd;
+  background-color: #FFF2C6;
   border-bottom-right-radius: 12px;
 }
 

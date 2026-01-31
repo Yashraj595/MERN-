@@ -11,7 +11,7 @@ const NewHome = () => {
 
         <div id="homecontainer">
     
-    <h1 class> Server is low !</h1>
+    <h1 class className='font-bold'> Page is UnderConstruction, Please click on homebargar to get you   more  option </h1>
 
         </div>
       </div>

@@ -2,8 +2,10 @@ import Navigation from '../components/Navigation';
 import Discountdiv from '../components/Discountdiv';
 import Box from '../components/Box';
 import Footer from '../components/Footer';
+import Product from '../components/Product';
+// import NewHome from '../pages/NewHome.css'
 
-const Home = () => {
+const Shop = () => {
   return (
     <>
       <Navigation />
@@ -14,4 +16,4 @@ const Home = () => {
   );
 };
 
-export default Home;
+export default Shop;

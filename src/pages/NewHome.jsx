@@ -12,7 +12,8 @@ const NewHome = () => {
         <div id="homecontainer">
           <h1 id="newhomeh1" className="font-bold ">
             
-            Page is Under Construction, Please click on homeburger icon ( ☰ ) to know more, Sorry !
+            Page is Under Construction, Please click on homeburger icon ( ☰ )/ Navbar option to know more, Sorry !
+
           </h1>
         </div>
       </div>

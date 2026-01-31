@@ -9,7 +9,7 @@ const Shop = () => {
   return (
     <>
       <Navigation />
-      <Discountdiv />
+      
       <Box />
       <Footer />
     </>

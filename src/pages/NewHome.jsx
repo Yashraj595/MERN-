@@ -11,7 +11,7 @@ const NewHome = () => {
 
         <div id="homecontainer">
     
-    <h1> sjkldfj</h1>
+    <h1 class> Server is low !</h1>
 
         </div>
       </div>

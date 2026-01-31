@@ -17,7 +17,7 @@
 #cover{
   width:40vw;
   height: 100%;
-    background-color: #FFF2C6;
+  background-color: #FFF2C6;
   border-radius: 12px;
   display: flex;
   justify-content: center;
@@ -262,8 +262,11 @@ display: none;
 
 
 #homebargarkikahani {
+  margin-top: 50px;
   height: 120px;
-  width: 95%;
+  width: 20%;
+  margin-right: 5%;
+  margin-left: 75%;
   background-color:wheat;
 
   display: flex;
@@ -271,10 +274,11 @@ display: none;
 
   align-items: center;
   
-  align-items: flex-end;
+  /* align-items: flex-end; */
 
   font-size: 25px;
   margin-right: 20px;
+  position: fixed;
 }
 #homebargarkikahani a {
   color: rgb(0, 0, 0);

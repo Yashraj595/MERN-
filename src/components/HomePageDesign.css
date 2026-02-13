@@ -27,11 +27,11 @@ align-items: center;
 
 #homepagedesignleftinnerpage{
   min-height: 300px;
-  width: 80%;
+  width: 100%;
   background-color: white;
   display: flex;
   justify-content: center;
-  font-size: 200%;
+  font-size: 100%;
  overflow: hidden;
   font-weight: 500;
   color: rgb(103, 72, 37);

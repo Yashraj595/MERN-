@@ -13,11 +13,11 @@ const HomePageDesign = () => {
           </div>
         </div>
 
-        <div id="homepagedesignright">
-          <div id="homepageimagebox">
-            <img id="imgwoman" src="\images\longwomanI\mage.jpg" alt="" />
-          </div>
-        </div>
+        {/* <div id="homepagedesignright">
+          <div id="homepageimagebox"> */}
+            {/* <img id="imgwoman" src="\images\longwomanI\mage.jpg" alt="" /> */}
+          {/* </div>
+        </div> */}
       </div>
     </>
   );

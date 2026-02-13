@@ -8,14 +8,14 @@ const HomePageDesign = () => {
       <div id="homepagedesign">
         <div id="homepagedesignleft">
           <div id="homepagedesignleftinnerpage">
-            Discover high-quality products with a seamless, modern shopping
-            experience. Designed for speed, simplicity, and satisfaction.
+            🚧 This project is currently under development. Some features may
+            not work as expected.
           </div>
         </div>
 
         <div id="homepagedesignright">
           <div id="homepageimagebox">
-            <img id="imgwoman" src="\images\longwomanImage.jpg" alt="" />
+            <img id="imgwoman" src="\images\longwomanI\mage.jpg" alt="" />
           </div>
         </div>
       </div>

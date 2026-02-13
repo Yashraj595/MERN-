@@ -71,7 +71,6 @@
 
 // export default Navigation;
 import { Link } from 'react-router-dom';
-
 import { useState } from 'react';
 // import Data from './Data';
 import { products as Data } from './Data';
@@ -118,9 +117,8 @@ function menu(){
             type="text"
             placeholder="Search here"
             value={searchText}
-            onChange={ getData }
-           onFocus={searchOn}
-
+            onChange={getData}
+            onFocus={searchOn}
           />
 
           <button id="buttonsearch">
@@ -138,6 +136,7 @@ function menu(){
           <Link to="/">Home</Link>
           <Link to="/shop">Shop</Link>
           <Link to="/contact">Contact</Link>
+          {/* <Link to ="/login">Login</Link> */}
         </div>
         <button id="threedot" onClick={menu}>
           <span className="colorgreen">-</span>
@@ -147,11 +146,10 @@ function menu(){
 
         <nav id="loginid">
           <Link id="form" to="/signin">
-          Login
+            Login
           </Link>
-          <span>/</span>
-          <Link id="form" to="/signup">
-           SignUp
+          <Link id="form" to="/signUp">
+            SignUp
           </Link>
         </nav>
       </div>
@@ -175,15 +173,13 @@ function menu(){
         <div id="homebargarkikahani">
           <Link to="/">Home</Link>
           <Link to="/shop">Shop</Link>
-          <Link to="/contact">Contact</Link>
-          <Link  to="/signin">Login</Link>
-          <Link  to="/signup">SignUp</Link>
+          <Link to="/order">Order</Link>
+          <Link to="/signin">Login</Link>
+          <Link to="/signup">SignUp</Link>
         </div>
       )}
 
-
-
-      {
+      {/* {
         searchOpen  && (searchText !== '') &&  (
         <div id='searchDesign'>  
 
@@ -191,9 +187,7 @@ function menu(){
         </div>
 
         )
-      }
-
-
+      } */}
     </>
   );
 };

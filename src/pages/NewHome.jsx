@@ -2,24 +2,20 @@ import React from 'react'
 import Navigation from '../components/Navigation' ;
 import './NewHome.css'
 import Footer from '../components/Footer';
+import HomePageDesign from '../components/HomePageDesign'
 
 const NewHome = () => {
   return (
     <>
-      <div>
-        <Navigation />
+      <Navigation />
 
-        <div id="homecontainer">
-          <h1 id="newhomeh1" className="font-bold ">
-            
-            Page is Under Construction, Please click on homeburger icon ( ☰ )/ Navbar option to know more, Sorry !
+      <HomePageDesign  />
+      <HomePageDesign />
+      <HomePageDesign />
 
-          </h1>
-        </div>
-      </div>
       <Footer />
     </>
   );
 }
 
-export default NewHome
+export default NewHome ;

@@ -27,7 +27,7 @@ const Box = () => {
           Cardtitle="Soft Collection"
           rating="Rating 4.5 ⭐"
           price="₹499"
-          image="/images/bulk.jpg"
+          image="/images/bulk.avif"
         />
         <Product
           Cardtitle="Jeans collection"
@@ -39,13 +39,13 @@ const Box = () => {
           Cardtitle="Shirt Collection"
           rating=" Rating 4.5 ⭐"
           price="₹2199"
-          image="/images/shirtscollection.jpg"
+          image="/images/shirtscollection.avif"
         />
         <Product
           Cardtitle="Cotton Sweater"
           rating="Rating 4.5 ⭐"
           price="₹999"
-          image="/images/sweater.jpg"
+          image="/images/sweater.avif"
         />
         <Product
           Cardtitle=" Formal Shirts"

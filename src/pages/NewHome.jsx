@@ -10,8 +10,7 @@ const NewHome = () => {
       <Navigation />
 
       <HomePageDesign  />
-      <HomePageDesign />
-      <HomePageDesign />
+   
 
       <Footer />
     </>

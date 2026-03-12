@@ -58,7 +58,7 @@ margin-top: 50px;
 
 /* 2. Parent Container */
 #designbox {
-    height: 600px;
+    height: 800px;
     width: 100vw;
     display: flex;
     justify-content: center;
@@ -105,19 +105,18 @@ flex-direction: column;
 #purches{
   background-color: #8d5642;
   border: 3px solid white;
-  border-radius: 12px;
-  color: white;
+  background-color: white;
+  font-size: 23px;
+  color: #8d5642;
   width: 200px;
   height: 40px;
   overflow: hidden;
   font-weight: bold;
-   transition: transform 0.4s ease;
-
+  border-radius: 15px;
+   
+  
 }
 
-#purches:hover {
-  transform: scale(1.10);
-}
 
 #shoptext{
   font-size: 50px;
@@ -235,6 +234,7 @@ text-align: center;
 #purches{
     width: 160px;
     height: 38px;
+
 }
 
 }

@@ -152,3 +152,63 @@ text-align: center;
 #rightright:hover img {
     transform: scale(1.05);
 }
+
+
+/***********************************************************/
+
+@media (max-width: 768px) {
+
+#left {
+    width: 80%;
+    height: auto;
+    margin-top: 40px;
+    overflow: hidden;
+}
+
+#rightright {
+    width: 80%;
+    height: 350px;
+    margin-top: 20px;
+    overflow: hidden;
+
+}
+
+#shoptext{
+    font-size: 36px;
+}
+
+}
+
+/**********************************************************/
+
+@media (max-width: 480px) {
+
+#designbox{
+    flex-direction: column;
+    padding: 20px;
+}
+
+#left{
+    width: 100%;
+    height: auto;
+    margin-top: 20px;
+    overflow: hidden;
+}
+
+#rightright{
+    width: 100%;
+    height: 300px;
+    margin-top: 20px;
+    overflow: hidden;
+}
+
+#shoptext{
+    font-size: 28px;
+}
+
+#purches{
+    width: 160px;
+    height: 38px;
+}
+
+}

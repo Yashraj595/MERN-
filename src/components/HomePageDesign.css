@@ -119,7 +119,7 @@ flex-direction: column;
 
 
 #shoptext{
-  font-size: 50px;
+  font-size: 40px;
   font-weight: bold;
   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
   color: wheat;
@@ -222,18 +222,19 @@ text-align: center;
 
 #rightright{
     width: 100%;
-    height: 450px;
+    height: 350px;
     margin-top: 20px;
     overflow: hidden;
 }
 
 #shoptext{
-    font-size: 15px;
+    font-size: 20px;
 }
 
 #purches{
     width: 160px;
     height: 38px;
+    font-size: 17px;
 
 }
 

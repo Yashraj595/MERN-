@@ -8,6 +8,9 @@ const first = '/images/firstimage.jpg';
 const HomePageDesign = () => {
   return (
     <div id="designbox">
+    
+    
+    
       <div id="left">
         {/* Your left content */}
 

@@ -37,6 +37,8 @@ import SignIn from './pages/SignIn';
 import SignUp from './pages/SignUp';
 import NewHome from './pages/NewHome';
 import HomePageDesign from './components/HomePageDesign';
+import SecondHome from './components/SecondHome';
+
 import './index.css'
 
 
@@ -53,6 +55,8 @@ const App = () => {
       <Route path="/shop" element={<HomePageDesign />} />
 
       <Route />
+
+      <Route  path="/shop" > </Route>
     </Routes>
   );
 };

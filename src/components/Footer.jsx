@@ -25,21 +25,24 @@ const Footer = () => {
             href="www.linkedin.com/in/yashraj-singh-thakur-7b3b05331"
             target="_blank"
           >
-            LinkedIn
+            <i class="fa-brands fa-linkedin"></i>
           </a>
 
           <a
             className="followus"
             href="https://www.instagram.com/yashrajsinghthakur520?igsh=NDc4ZXcwdnZnd3ox"
             target="_blank"
-          > Instagram   </a>
+          >
+            {' '}
+            <i class="fa-brands fa-instagram"></i>{' '}
+          </a>
 
           <a
             className="followus"
             href="https://www.facebook.com/share/1CHCtBAaeo/"
             target="_blank"
           >
-            Facebook
+            <i class="fa-brands fa-facebook"></i>
           </a>
         </div>
       </div>

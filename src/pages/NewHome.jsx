@@ -3,6 +3,7 @@ import Navigation from '../components/Navigation' ;
 import './NewHome.css'
 import Footer from '../components/Footer';
 import HomePageDesign from '../components/HomePageDesign'
+import SecondHome from '../components/SecondHome';
 
 const NewHome = () => {
   return (
@@ -10,7 +11,7 @@ const NewHome = () => {
       <Navigation />
 
       <HomePageDesign  />
-   
+    <SecondHome/>
 
       <Footer />
     </>

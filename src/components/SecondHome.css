@@ -1,0 +1,728 @@
+/* 
+
+*{
+  padding: 0;
+  margin: 0;
+
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+#rightright img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover; 
+}
+#designbox{
+  
+height: 600px;
+width: 100vw;
+display: flex;
+justify-content: center;
+background-color:#b87761;
+background-color: #915845;
+margin-top: 50px;
+
+}
+
+#left{
+    margin-top: 100px;
+  background-color:#b87761;
+  background-color: #915845;
+  
+  width: 40vw;
+  height: 450px;
+  
+
+
+}
+
+#rightright{
+  margin-top: 100px;
+  background-color: #6b5b26;
+  background-color: #915845;
+  width: 30vw;
+  height: 450px;
+  
+
+} */
+
+/* 1. Global Reset - Isse unwanted spaces hat jayengi */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* 2. Parent Container */
+#designbox {
+    height: 700px;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    background-color: #915845; /* Cleaned: Duplicate color removed */
+    margin-top: 50px;
+    background: linear-gradient(to right, #8d5642, #c07d63);
+}
+
+/* 3. Left Section */
+#left {
+    margin-top: 100px;
+    background-color: #915845; /* Cleaned: Duplicate color removed */
+    width: 40vw;
+    height: 550px;
+    background: linear-gradient(to right, #8d5642, #c07d63);
+background: linear-gradient(to right, #8d564256, #8d5642);
+display: flex;
+justify-content: space-evenly;
+align-items: center;
+flex-direction: column;
+
+
+}
+
+/* 4. Right Section (Container) */
+#rightright {
+    margin-top: 100px;
+    background-color: #915845; /* Cleaned: Base color fixed */
+    background-color: ;
+    width: 30vw;
+    height: 450px;
+    overflow: hidden; /* Ye ensure karega ki image border se bahar na nikle */
+    display: flex; /* Image ko align karne ke liye */
+}
+
+/* 5. Image Styling - Isse white line hat jayegi */
+#rightright img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover; /* Gap fill karne ke liye */
+    display: block;    /* Bottom white space/line hatane ke liye */
+    border: none;      /* Any ghost border hatane ke liye */
+}
+
+#purches{
+  background-color: #8d5642;
+  border: 3px solid white;
+  background-color: white;
+  font-size: 23px;
+  color: #8d5642;
+  width: 200px;
+  height: 40px;
+  overflow: hidden;
+  font-weight: bold;
+  border-radius: 15px;
+   
+  
+}
+
+
+#shoptext{
+  font-size: 40px;
+  font-weight: bold;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  color: wheat;
+  color: white;
+text-align: center;
+}
+/* Right Section (Container) */
+#rightright {
+    margin-top: 100px;
+    background-color: #915845;
+    /* background-color: #ffd600; */
+    /* 
+
+*{
+  padding: 0;
+  margin: 0;
+
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+#rightright img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover; 
+}
+#designbox{
+  
+height: 600px;
+width: 100vw;
+display: flex;
+justify-content: center;
+background-color:#b87761;
+background-color: #915845;
+margin-top: 50px;
+
+}
+
+#left{
+    margin-top: 100px;
+  background-color:#b87761;
+  background-color: #915845;
+  
+  width: 40vw;
+  height: 450px;
+  
+
+
+}
+
+#rightright{
+  margin-top: 100px;
+  background-color: #6b5b26;
+  background-color: #915845;
+  width: 30vw;
+  height: 450px;
+  
+
+} */
+
+/* 1. Global Reset - Isse unwanted spaces hat jayengi */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* 2. Parent Container */
+#designbox {
+    height: 700px;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    background-color: #915845; /* Cleaned: Duplicate color removed */
+    /* background-color: #ffd600; */
+    margin-top: 50px;
+    background: linear-gradient(to right, #8d5642, #c07d63);
+}
+
+/* 3. Left Section */
+#left {
+    margin-top: 100px;
+    background-color: #915845; /* Cleaned: Duplicate color removed */
+    width: 40vw;
+    height: 550px;
+    background: linear-gradient(to right, #8d5642, #c07d63);
+background: linear-gradient(to right, #8d564256, #8d5642);
+display: flex;
+justify-content: space-evenly;
+align-items: center;
+flex-direction: column;
+
+
+}
+
+/* 4. Right Section (Container) */
+#rightright {
+    margin-top: 100px;
+    background-color: #915845; /* Cleaned: Base color fixed */
+    width: 30vw;
+    height: 450px;
+    overflow: hidden; /* Ye ensure karega ki image border se bahar na nikle */
+    display: flex; /* Image ko align karne ke liye */
+}
+
+/* 5. Image Styling - Isse white line hat jayegi */
+#rightright img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover; /* Gap fill karne ke liye */
+    display: block;    /* Bottom white space/line hatane ke liye */
+    border: none;      /* Any ghost border hatane ke liye */
+}
+
+#purches{
+  background-color: #8d5642;
+  border: 3px solid white;
+  background-color: white;
+  font-size: 23px;
+  color: #8d5642;
+  width: 200px;
+  height: 40px;
+  overflow: hidden;
+  font-weight: bold;
+  border-radius: 15px;
+   
+  
+}
+
+
+#shoptext{
+  font-size: 40px;
+  font-weight: bold;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  color: wheat;
+  color: white;
+text-align: center;
+}
+/* Right Section (Container) */
+#rightright {
+    margin-top: 100px;
+    background-color: #915845;
+    width: 30vw;
+    height: 550px;
+    overflow: hidden; /* important for zoom effect */
+    display: flex;
+}
+
+/* Image Styling */
+#rightright img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+    border: none;
+
+    /* Smooth transition */
+    transition: transform 0.4s ease;
+}
+
+/* Hover Effect */
+#rightright:hover img {
+    transform: scale(1.05);
+}
+/***************************************************/
+
+@media (max-width: 1208px) {
+
+#left {
+    width: 60%;
+    height: 550px;
+    margin-top: 40px;
+    overflow: hidden;
+    
+}
+
+#rightright {
+    width: 60%;
+    height: 550px;
+    margin-top: 40px;
+    overflow: hidden;
+
+}
+
+#shoptext{
+    font-size: 35px;
+}
+
+}
+
+/***********************************************************/
+
+@media (max-width: 768px) {
+
+#left {
+    width: 80%;
+    height: 350px;
+    margin-top: 40px;
+    overflow: hidden;
+}
+
+#rightright {
+    width: 80%;
+    height: 350px;
+    margin-top: 40px;
+    overflow: hidden;
+
+}
+
+#shoptext{
+    font-size: 26px;
+}
+
+}
+
+/**********************************************************/
+
+@media (max-width: 480px) {
+
+#designbox{
+    flex-direction: column;
+    padding: 20px;
+}
+
+#left{
+    width: 100%;
+    height: 200px;
+    margin-top: 20px;
+    overflow: hidden;
+    
+}
+
+#rightright{
+    width: 100%;
+    height: 350px;
+    margin-top: 20px;
+    overflow: hidden;
+}
+
+#shoptext{
+    font-size: 20px;
+}
+
+#purches{
+    width: 160px;
+    height: 38px;
+    font-size: 17px;
+
+}
+
+}
+    /* 
+
+*{
+  padding: 0;
+  margin: 0;
+
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+#rightright img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover; 
+}
+#designbox{
+  
+height: 600px;
+width: 100vw;
+display: flex;
+justify-content: center;
+background-color:#b87761;
+background-color: #915845;
+margin-top: 50px;
+
+}
+
+#left{
+    margin-top: 100px;
+  background-color:#b87761;
+  background-color: #915845;
+  
+  width: 40vw;
+  height: 450px;
+  
+
+
+}
+
+#rightright{
+  margin-top: 100px;
+  background-color: #6b5b26;
+  background-color: #915845;
+  width: 30vw;
+  height: 450px;
+  
+
+} */
+
+/* 1. Global Reset - Isse unwanted spaces hat jayengi */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* 2. Parent Container */
+#designbox {
+    height: 700px;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    background-color: #915845; /* Cleaned: Duplicate color removed */
+    margin-top: 50px;
+    background: linear-gradient(to right, #8d5642, #c07d63);
+}
+
+/* 3. Left Section */
+#left {
+    margin-top: 100px;
+    background-color: #915845; /* Cleaned: Duplicate color removed */
+    /* background-color: #ffd600; */
+    width: 40vw;
+    height: 550px;
+    background: linear-gradient(to right, #8d5642, #c07d63);
+background: linear-gradient(to right, #8d564256, #8d5642);
+display: flex;
+justify-content: space-evenly;
+align-items: center;
+flex-direction: column;
+
+
+}
+
+/* 4. Right Section (Container) */
+#rightright {
+    margin-top: 100px;
+    background-color: #915845; /* Cleaned: Base color fixed */
+    
+    width: 30vw;
+    height: 450px;
+    overflow: hidden; /* Ye ensure karega ki image border se bahar na nikle */
+    display: flex; /* Image ko align karne ke liye */
+}
+
+/* 5. Image Styling - Isse white line hat jayegi */
+#rightright img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover; /* Gap fill karne ke liye */
+    display: block;    /* Bottom white space/line hatane ke liye */
+    border: none;      /* Any ghost border hatane ke liye */
+}
+
+#purches{
+  background-color: #8d5642;
+  border: 3px solid white;
+  background-color: white;
+  font-size: 23px;
+  color: #8d5642;
+  width: 200px;
+  height: 40px;
+  overflow: hidden;
+  font-weight: bold;
+  border-radius: 15px;
+   
+  
+}
+
+
+#shoptext{
+  font-size: 40px;
+  font-weight: bold;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  color: wheat;
+  color: white;
+text-align: center;
+}
+/* Right Section (Container) */
+#rightright {
+    margin-top: 100px;
+    background-color: #915845;
+    width: 30vw;
+    height: 550px;
+    overflow: hidden; /* important for zoom effect */
+    display: flex;
+}
+
+/* Image Styling */
+#rightright img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+    border: none;
+
+    /* Smooth transition */
+    transition: transform 0.4s ease;
+}
+
+/* Hover Effect */
+#rightright:hover img {
+    transform: scale(1.05);
+}
+/***************************************************/
+
+@media (max-width: 1208px) {
+
+#left {
+    width: 60%;
+    height: 550px;
+    margin-top: 40px;
+    overflow: hidden;
+    
+}
+
+#rightright {
+    width: 60%;
+    height: 550px;
+    margin-top: 40px;
+    overflow: hidden;
+
+}
+
+#shoptext{
+    font-size: 35px;
+}
+
+}
+
+/***********************************************************/
+
+@media (max-width: 768px) {
+
+#left {
+    width: 80%;
+    height: 350px;
+    margin-top: 40px;
+    overflow: hidden;
+}
+
+#rightright {
+    width: 80%;
+    height: 350px;
+    margin-top: 40px;
+    overflow: hidden;
+
+}
+
+#shoptext{
+    font-size: 26px;
+}
+
+}
+
+/**********************************************************/
+
+@media (max-width: 480px) {
+
+#designbox{
+    flex-direction: column;
+    padding: 20px;
+}
+
+#left{
+    width: 100%;
+    height: 200px;
+    margin-top: 20px;
+    overflow: hidden;
+    
+}
+
+#rightright{
+    width: 100%;
+    height: 350px;
+    margin-top: 20px;
+    overflow: hidden;
+}
+
+#shoptext{
+    font-size: 20px;
+}
+
+#purches{
+    width: 160px;
+    height: 38px;
+    font-size: 17px;
+
+}
+
+}
+    width: 30vw;
+    height: 550px;
+    overflow: hidden; /* important for zoom effect */
+    display: flex;
+}
+
+/* Image Styling */
+#rightright img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+    border: none;
+
+    /* Smooth transition */
+    transition: transform 0.4s ease;
+}
+
+/* Hover Effect */
+#rightright:hover img {
+    transform: scale(1.05);
+}
+/***************************************************/
+
+@media (max-width: 1208px) {
+
+#left {
+    width: 60%;
+    height: 550px;
+    margin-top: 40px;
+    overflow: hidden;
+    
+}
+
+#rightright {
+    width: 60%;
+    height: 550px;
+    margin-top: 40px;
+    overflow: hidden;
+
+}
+
+#shoptext{
+    font-size: 35px;
+}
+
+}
+
+/***********************************************************/
+
+@media (max-width: 768px) {
+
+#left {
+    width: 80%;
+    height: 350px;
+    margin-top: 40px;
+    overflow: hidden;
+}
+
+#rightright {
+    width: 80%;
+    height: 350px;
+    margin-top: 40px;
+    overflow: hidden;
+
+}
+
+#shoptext{
+    font-size: 26px;
+}
+
+}
+
+/**********************************************************/
+
+@media (max-width: 480px) {
+
+#designbox{
+    flex-direction: column;
+    padding: 20px;
+}
+
+#left{
+    width: 100%;
+    height: 200px;
+    margin-top: 20px;
+    overflow: hidden;
+    
+}
+
+#rightright{
+    width: 100%;
+    height: 350px;
+    margin-top: 20px;
+    overflow: hidden;
+}
+
+#shoptext{
+    font-size: 20px;
+}
+
+#purches{
+    width: 160px;
+    height: 38px;
+    font-size: 17px;
+
+}
+
+}

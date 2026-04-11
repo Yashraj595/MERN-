@@ -110,13 +110,15 @@ background-color: #FFF2C6;
 /* font-size: 35px; */
 font-family: "Georgia", serif;
 /* position: fixed; */
+transition: 15s;
 }
 #uppernav a:hover{
   text-decoration: underline;
-
+  
 }
 #uppernav a{
   font-size: 20px;
+    color: navy;
   
 
 }
@@ -188,6 +190,7 @@ a{
 
 #img{
   background-color:rgba(255, 127, 80, 0.852) ;
+  
 }
 
 @media (min-width:800px){

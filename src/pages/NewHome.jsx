@@ -4,6 +4,7 @@ import './NewHome.css'
 import Footer from '../components/Footer';
 import HomePageDesign from '../components/HomePageDesign'
 import SecondHome from '../components/SecondHome';
+// import Box from '../components/Box'
 
 const NewHome = () => {
   return (
@@ -11,6 +12,7 @@ const NewHome = () => {
       <Navigation />
 
       <HomePageDesign  />
+    
     <SecondHome/>
 
       <Footer />

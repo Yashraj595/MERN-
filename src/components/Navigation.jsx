@@ -111,8 +111,8 @@ function menu(){
 
   return (
     <>
-      <div id="uppernavcontroller">
-        <div id="cover">
+      <div id="uppernavcontroller" style={{ backgroundColor: 'yellow' }}>
+        <div id="cover" style={{ backgroundColor: 'yellow' }}>
           <input
             type="text"
             placeholder="Search here"
@@ -122,11 +122,15 @@ function menu(){
           />
 
           <button id="buttonsearch">
+            {/* <i  class="fa-brands fa-sistrix"></i> */}
             <img id="searchimg" src={searchImg} alt="search" />
           </button>
         </div>
 
-        <div id="uppernav">
+        <div
+          id="uppernav"
+          style={{ backgroundColor: 'yellow' }}
+        >
           {/* <a href="#">Home</a>
           <a href="#">Shop</a>
           <a href="UI\src\components\Contact.jsx">About</a>
@@ -135,7 +139,7 @@ function menu(){
 
           <Link to="/">Home</Link>
           <Link to="/shop">Shop</Link>
-          <Link to="/contact">Contact</Link>
+          <Link to="/contact">MyOrder</Link>
           {/* <Link to ="/login">Login</Link> */}
         </div>
         <button id="threedot" onClick={menu}>
@@ -173,7 +177,7 @@ function menu(){
         <div id="homebargarkikahani">
           <Link to="/">Home</Link>
           <Link to="/shop">Shop</Link>
-          <Link to="/order">Order</Link>
+          <Link to="/order">MyOrder</Link>
           <Link to="/signin">Login</Link>
           <Link to="/signup">SignUp</Link>
         </div>

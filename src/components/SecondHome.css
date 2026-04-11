@@ -87,7 +87,7 @@ flex-direction: column;
 #rightright {
     margin-top: 100px;
     background-color: #915845; /* Cleaned: Base color fixed */
-    background-color: ;
+    /* background-color: ; */
     width: 30vw;
     height: 450px;
     overflow: hidden; /* Ye ensure karega ki image border se bahar na nikle */

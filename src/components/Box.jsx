@@ -80,15 +80,15 @@ const Box = () => {
   );
 
   return (
-    <div className="outer">
-      {/* 🔍 SEARCH BAR */}
-      <input
-        type="text"
-        placeholder="Search product..."
-        value={search}
-        onChange={(e) => setSearch(e.target.value)}
-        style={{ padding: '10px', width: '300px', marginBottom: '20px' }}
-      />
+    // <div className="outer">
+    //   {/* 🔍 SEARCH BAR */}
+    //   <input
+    //     type="text"
+    //     placeholder="Search product..."
+    //     value={search}
+    //     onChange={(e) => setSearch(e.target.value)}
+    //     style={{ padding: '10px', width: '300px', marginBottom: '20px' }}
+    //   />
 
       <div className="grid">
         {filteredProducts.map((item) => (
@@ -102,7 +102,7 @@ const Box = () => {
           </Link>
         ))}
       </div>
-    </div>
+    
   );
 };
 

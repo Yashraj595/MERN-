@@ -1,16 +1,102 @@
-# React + Vite
+# 🛒 MERN E-Commerce Web Application
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A full-stack e-commerce web application built using the MERN stack (MongoDB, Express.js, React.js, Node.js). The application allows users to browse products, view product details, and place orders seamlessly.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🚀 Features
 
-## React Compiler
+- 🛍️ View all products (fetched from backend API)
+- 🔍 Product details page with dynamic routing
+- 🛒 Buy Now functionality with order placement flow
+- 📦 Order creation with stock validation
+- 🔄 Automatic stock update after order placement
+- ⏳ Loading states for better user experience
+- 🌐 Fully integrated frontend and backend
+- 📡 REST API-based architecture
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+---
 
-## Expanding the ESLint configuration
+## 🧠 Tech Stack
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+### Frontend:
+- React.js
+- React Router
+- Fetch API / Axios
+- CSS / Inline Styling
+
+### Backend:
+- Node.js
+- Express.js
+- MongoDB (Mongoose)
+
+### Deployment:
+- Backend: Render
+- Frontend: (Vercel / Netlify)
+
+---
+
+## 📂 Project Structure
+## 📂 Project Structure
+
+
+client/
+├── src/
+│ ├── components/
+│ ├── pages/
+│ ├── App.jsx
+
+server/
+├── models/
+├── routes/
+├── server.js
+
+
+
+---
+
+## 🔗 API Endpoints
+
+### 🛍️ Products
+- `GET /product` → Get all products
+- `GET /product/:id` → Get single product
+
+### 📦 Orders
+- `POST /order/buy/:productId` → Place order
+- `GET /order` → Get all orders
+
+---
+
+## ⚙️ Installation & Setup
+
+### 1️⃣ Clone the repository
+```bash`
+git clone https://github.com/your-username/your-repo-name.git
+
+2️⃣ Backend setup
+cd server
+npm install
+npm start
+
+3️⃣Frontend setup
+cd client
+npm install
+npm run dev
+
+🌍 Live Demo
+🔗 Backend: https://mern-backend-0zvk.onrender.com
+🔗 Frontend: https://e-commerce-shopping-rho.vercel.app/
+
+
+📌 Future Improvements
+🔐 User Authentication (JWT)
+💳 Payment Gateway Integration (Razorpay/Stripe)
+🛒 Cart System
+📍 Address Management
+📦 Order Tracking
+
+👨‍💻 Author
+Yashraj Singh Thakur
+
+GitHub: https://github.com/Yashraj595
+LinkedIn: https://www.linkedin.com/in/yashraj-singh-thakur-7b3b05331/

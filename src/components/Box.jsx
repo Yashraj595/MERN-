@@ -78,7 +78,7 @@ const Box = () => {
   const filteredProducts = products.filter((item) =>
     item.name.toLowerCase().includes(search.toLowerCase()),
   );
-
+ 
   return (
     // <div className="outer">
     //   {/* 🔍 SEARCH BAR */}

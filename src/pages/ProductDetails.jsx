@@ -104,7 +104,7 @@ const ProductDetails = () => {
   const handleBuyNow = () => {
     const token = localStorage.getItem('token');
     if (!token) {
-      alert('Pehle login karo! ⚠️');
+      alert(' First Login Please ⚠️');
       navigate('/signin');
       return;
     }

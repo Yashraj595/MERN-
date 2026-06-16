@@ -389,8 +389,8 @@ const Navigation = () => {
 
   return (
     <>
-      <div id="uppernavcontroller" style={{ backgroundColor: 'yellow' }}>
-        <div id="cover" style={{ backgroundColor: 'yellow' }}>
+      <div id="uppernavcontroller" >
+        <div id="cover" >
           <input
             type="text"
             placeholder="Search here"
@@ -404,7 +404,7 @@ const Navigation = () => {
           </button>
         </div>
 
-        <div id="uppernav" style={{ backgroundColor: 'yellow' }}>
+        <div id="uppernav">
           <Link to="/">Home</Link>
           <Link to="/shop">Shop</Link>
           <Link to="/myorders">MyOrders</Link>

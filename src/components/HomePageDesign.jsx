@@ -4,12 +4,12 @@ import React from 'react';
 import './HomePageDesign.css';
 
 // For files in public folder, we use the absolute path as a string variable
-const first = '/images/firstimage.jpg';
+const first = '/images/firstimage.png';
 
 const HomePageDesign = () => {
   return (
     <>
-      <div id="designbox" style={{ backgroundColor: 'white' }}>
+      <div id="designbox" >
         <div id="left">
           {/* Your left content */}
 

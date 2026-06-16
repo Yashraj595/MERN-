@@ -2,7 +2,7 @@ import React from 'react'
 import './SecondHome.css'
 // import "./HomePageDesign.css"
 import "./SecondHome.css"
-const second = '/images/secondimage.jpg';
+const second = '/images/secondimage.png';
 import {Link} from 'react-router-dom'
 
 const SecondHome = () => {

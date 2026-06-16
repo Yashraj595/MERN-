@@ -56,8 +56,8 @@ const Product = (props) => {
         <button
           onClick={handleBuyNow}
           style={{
-            backgroundColor: 'red',
-            color: 'white',
+            backgroundColor: 'white',
+            color: '#0C2340',
             width: '80px',
             height: '25px',
             borderRadius: '4px',

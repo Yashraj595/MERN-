@@ -13,6 +13,7 @@ margin: 0;
   width: 250px;
 
   background-color: #FFF2C6;
+  background-color: #0C2340;
     
   border-radius: 12px;
 }
@@ -30,11 +31,14 @@ margin: 0;
   height: 20%;
   width: 100%;
   margin-top: 8px;
-  margin-left: 12px;
+  margin-left: 17px;
+  /* border-radius: 12px; */
   background-color: #dadada;
   background-color: #ff9603dd;
   background-color: #FFF2C6;
+  background-color: #0C2340;
   border-bottom-right-radius: 12px;
+  color: white;
 }
 
 
@@ -44,7 +48,7 @@ margin: 0;
 
   /*    multiple shadow property  */
   box-shadow:
-    5px 5px 15px rgb(239, 123, 7),
+    5px 5px 15px #0C2340,
     -5px -5px 15px rgb(235, 223, 9);
   top: 70px
 }

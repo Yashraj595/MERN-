@@ -33,10 +33,12 @@
       }
       
 #contatinner{
-  height: 500px;
+  height: 250px;
 width: 350px;
-background-color:rgba(255, 72, 0, 0.568);
-border-radius: 12px;
+background-color:rgba(122, 49, 21, 0.568);
+background-color: #0C2340;
+border-radius: 12px !important;
+color: white;
 display: flex;
 /* border: 2px solid black; */
 }
@@ -51,7 +53,7 @@ display: flex;
 
 
 #contatinner textarea{
-  background-color: white;
+  /* background-color: rgb(202, 18, 18); */
   width: 100%;
   height: 100px;
   
@@ -66,6 +68,7 @@ form{
   flex-wrap: wrap;
   width: 100%;
   /* background-color: ; */
+  /* border-radius: 10px; */
   
 }
 
@@ -74,15 +77,19 @@ form{
   width: 100px;
   height: 30px;
   /* border-radius: 10px; */
-  background-color: rgba(255, 208, 0, 0.534);
-  border:2px solid coral;
-  border-radius: 12px;
+  color: #0C2340;
+  color: whitesmoke;
+  /* background-color: white; */
+  /* border:2px solid coral; */
+  /* border-radius: 5px; */
 }
 
 .forminput{
-  width: 100%;
-  background-color: white;
-  height: 40px;
+  width: 80%;
+  background-color:#0C2340 ;
+ 
+  height: 30px;
   border: 1px solid #dadada;
-
+   color: whitesmoke;
+  padding-left: 12px;
 }

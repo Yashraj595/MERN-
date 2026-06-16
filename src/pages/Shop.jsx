@@ -81,11 +81,23 @@ const Shop = () => {
             justifyContent: 'center',
             backgroundColor: '',
             alignItems: 'center',
-          
           }}
         >
-          <h2 style={{ fontSize: '40px', height:"200px", width:"300px", background:"yellow", display:"flex", justifyContent:"center", alignItems:"center", borderRadius:"15px" }}>Loading...</h2> 
-          
+          <h2
+            style={{
+              fontSize: '40px',
+              color:'white',
+              height: '200px',
+              width: '300px',
+              background: '#0C2340',
+              display: 'flex',
+              justifyContent: 'center',
+              alignItems: 'center',
+              borderRadius: '15px',
+            }}
+          >
+            Loading...
+          </h2>
         </div>
         <Footer />
       </>

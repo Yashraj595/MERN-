@@ -54,7 +54,7 @@ const MyOrders = () => {
         setLoading(false);
       })
       .catch(() => {
-        alert('Orders load nahi hue ❌');
+        alert('Orders are not loading  ❌');
         setLoading(false);
       });
   }, []);

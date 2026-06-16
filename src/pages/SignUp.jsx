@@ -123,7 +123,7 @@ const SignUp = () => {
     }
     try {
       await axios.post(`${BASE_URL}/user/register`, formData);
-      alert('Successfully SignUp ✅ Ab login karo');
+      alert('Successfully SignUp ✅ , Now you can Login ');
       setFormData({ name: '', email: '', password: '' });
       navigate('/signin');
     } catch (err) {
